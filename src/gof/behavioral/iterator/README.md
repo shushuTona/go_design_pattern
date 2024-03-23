@@ -2,7 +2,6 @@
 
 https://en.wikipedia.org/wiki/Iterator_pattern
 
-
 > The iterator pattern decouples algorithms from containers
 
 イテレーターパターンを使用することで、繰り返し処理の対象からアルゴリズムを分離することができる。
@@ -22,4 +21,3 @@ https://en.wikipedia.org/wiki/Iterator_pattern
     - Aggregate interfaceを実装して、ConcreteIteratorを生成する。
 - ConcreteIterator
     - Iterator interfaceを実装して、ConcreteAggregateを走査する。
-
